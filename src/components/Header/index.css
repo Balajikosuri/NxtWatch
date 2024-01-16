@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  align-items: center;
+  /* background-color: rgba(172, 255, 47, 0.484); */
+  width: 100%;
+}
+
+.mobile_header {
+}
+.lg_devices_header {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .lg_devices_header {
+    display: block;
+  }
+
+  .mobile_header {
+    display: none;
+  }
+}
+.app-logo {
+  width: 80px;
+}
